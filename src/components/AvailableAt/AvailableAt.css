@@ -1,0 +1,42 @@
+.available {
+  padding: 60px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.available-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.platform-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.platform-logos img {
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.platform-logos img:hover {
+  transform: scale(1.08);
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .platform-logos {
+    gap: 30px;
+  }
+
+  .platform-logos img {
+    height: 32px;
+  }
+}

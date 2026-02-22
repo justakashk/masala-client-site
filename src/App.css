@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom: solid black 3px;
+  background: white;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3c6e47;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 190px;
+}
+
+.hero-left h1 {
+  font-family: 'Lucida Sans';
+  font-size: 80px;
+  color: #caa24d;
+}
+
+.hero-left h2 {
+  margin: 9px 0;
+  font-family: sans-serif;
+  font-weight:1000;
+  font-size: 28px;
+}
+
+.hero-left p {
+  font-size: 25px;
+  font-family: serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.hero-right img {
+  width: 350px;
+}
+
+.hero-right .mini {
+  max-width: 300px;
+  position: absolute;
+  width: 150px;
+  bottom: 12px;
+ 
+  
+  
+}
+
+/* Testimonial */
+.sec-2 {
+  /* text-align: center;
+  padding: 60px; */
+  background: #fff;
+}
+
+/* Platforms */
+.platforms {
+  text-align: center;
+  padding: 40px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+}
+
+/* Health */
+.health {
+  padding: 60px;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+.health-section {
+  background: #f4f4f4;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.health-container {
+  max-width: 90%;
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+/* Decorative Quote Symbol */
+.health-container::before {
+  content: "“";
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-size: 80px;
+  color: #caa24d;
+  opacity: 0.2;
+  font-family: serif;
+}
+
+.health-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.health-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .health-container {
+    padding: 35px 25px;
+  }
+
+  .health-title {
+    font-size: 28px;
+  }
+
+  .health-text {
+    font-size: 15px;
+  }
+}
