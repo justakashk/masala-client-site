@@ -15,8 +15,13 @@ function Hero() {
       </div>
 
       <div className="hero-right">
+        <div className="right-img">
+        
         <img src={product} alt="Sanjeevani Masala" />
         <img className="mini" src={product} alt="Sanjeevani Masala" />
+
+        </div>
+       
       </div>
     </section>
   );

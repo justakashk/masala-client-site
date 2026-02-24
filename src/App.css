@@ -73,12 +73,20 @@ body {
   width: 350px;
 }
 
+
+  .hero-right .right-img
+  {
+    max-width: 400px;
+    /* background-color: red; */
+  }
+
 .hero-right .mini {
   max-width: 300px;
   position: absolute;
   width: 150px;
-  bottom: 12px;
- 
+  bottom: 70px;
+  left: 64%;
+  
   
   
 }
