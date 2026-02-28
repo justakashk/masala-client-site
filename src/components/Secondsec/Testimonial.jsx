@@ -12,7 +12,6 @@ function Testimonial() {
            Boost immunity, support digestion, and bring authentic
            Indian flavor to every dish.
          </p>
- 
        </div>
  
        <div className="hero-right">
