@@ -35,6 +35,7 @@ body {
 /* Hero */
 .hero {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 80px 190px;
@@ -42,7 +43,8 @@ body {
 
 .hero-left h1 {
   font-family: 'Lucida Sans';
-  font-size: 80px;
+  font-weight: 1000;
+  font-size: 5vw;
   color: #caa24d;
 }
 
@@ -50,11 +52,11 @@ body {
   margin: 9px 0;
   font-family: sans-serif;
   font-weight:1000;
-  font-size: 28px;
+  font-size: 2vw;
 }
 
 .hero-left p {
-  font-size: 25px;
+  font-size: 1.5vw;
   font-family: serif;
   font-weight: 500;
   margin-bottom: 20px;
