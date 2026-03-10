@@ -1,4 +1,4 @@
-import product from "../assets/Rasoi Sanjeevani.png";
+import product from "../assets/hero-image.png";
 
 function Hero() {
   return (
@@ -15,12 +15,7 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-        <div className="right-img">
-        
-        <img src={product} alt="Sanjeevani Masala" />
-        <img className="mini" src={product} alt="Sanjeevani Masala" />
-
-        </div>
+        <img src={product} alt="hero-image" />
        
       </div>
     </section>

@@ -52,13 +52,3 @@ section.sec-2 .sec-img
 }
 
 
-.hero-right
-{
-  width: 400px;
-  height: 400px;
-  
-  border-radius: 50%;           /* Makes circle */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
